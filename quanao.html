@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTD</title>
+    <link rel="img" href="stylen.css">
+    <link rel="stylesheet" href="img">
+</head>
+<body>
+    <style>
+        @import url('stylen.css');
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 1537px;
+}
+header{
+    width: 1537px;
+    height: 100px;
+    background: #000000;
+}
+header img{
+    padding-left: 30px;
+}
+nav{
+    height: 45px;
+    background-color: rgba(171, 207, 9, 0.223);
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 28px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+  .middle{
+    margin-left: 200px;
+    width: 78.2%;
+    display: flex;
+    background-color: rgb(187, 176, 165);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.real, .fake1, .fake2{
+    border: 2px solid rgb(135, 30, 30);
+    background-color: rgb(144, 30, 30);
+    padding: 20px;
+    margin: 20px;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.cost{
+    color: rgb(0, 0, 0);
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(18, 11, 11);
+    width: 75px;
+    height: 45px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.real:hover{
+    background-color: rgb(99, 101, 102);
+    border: 2px solid rgb(117, 119, 120);
+}
+.fake1:hover{
+    background-color: rgb(99, 101, 102);
+    border: 2px solid rgb(99, 101, 102);
+}
+.fake2:hover{
+    background-color: rgb(99, 101, 102);
+    border: 2px solid rgb(99, 101, 102);
+}
+    </style>
+        
+    <div class="container">
+        <header>
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </header>
+
+        <nav>
+            <div class="topnav">
+                <a class="active" href="#TrangChu">Trang Chủ</a>
+                <a href="#SanPham">Sản Phẩm</a>
+                <a href="#Blog">Blog</a>
+                <input type="text" placeholder="Search..">
+              </div>
+        </nav>
+        <div class="slide">
+            <a href=""><img src="img/313115985_848628686318058_3499169361899889079_n.png" alt=""></a>
+        </div>
+    </div>
+    <article>
+        <h3>Mặt Hàng bán Chạy Nhất 2022</h3>
+    </article>
+    <div class="middle">
+        <div class="Ao">
+            <img src="./aopolo.png" alt="Ao">
+            <p>Privé Monogram Polo</p>
+            <p class="cost">500,000<sup>đ</sup></p>
+            <button>
+                <a href="">MUA</a>
+            </button>
+        </div>
+        <div class="aoneon">
+            <img src="./dvrk.png" alt="aoneon">
+            <p>Privé Padded Quilted Jacket</p>
+            <p class="cost">790,000<sup>đ</sup></p>
+            <button>
+                <a href="">MUA</a>
+            </button>
+        </div>
+        <div class="cardian">
+            <img src="./cardigan 4.png" alt="cardian">
+            <p>Privé Monogram Cardigan</p>
+            <p class="cost">850,000<sup>đ</sup></p>
+            <button>
+                <a href="">MUA</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="bottom"></div>
+</body>
+</html>                 
